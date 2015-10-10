@@ -1,4 +1,4 @@
-The PureNexus Project
+The PureNexus Project - Elite Kernels edition
 =====================
 
 Getting Started
@@ -10,7 +10,7 @@ To build PureNexus from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/PureNexus/android_manifest.git -b mm
+	repo init -u https://github.com/Elite-Kernels/android_manifest.git -b mm
 
 Then to sync source, use this command:
 
