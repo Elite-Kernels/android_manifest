@@ -42,6 +42,7 @@
   <project path="kernel/moto/eliteshamu" name="elite_shamu" groups="device,shamu,broadcom_pdk" remote="elite" revision="Elite-M-wifi" />
 
   <!-- Proprietary Vendors -->
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="nexus" revision="mm" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="nexus" revision="mm" />
 
   <!-- AOSP Repo's -->
