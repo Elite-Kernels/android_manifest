@@ -18,7 +18,7 @@
   <project path="build" name="android_build" groups="pdk" remote="elite" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="android_manifest" remote="nexus" revision="mm" />
+  <project path="manifest" name="android_manifest" remote="elite" revision="mm" />
   <project path="device/moto/shamu" name="android_device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="elite" revision="mm" />
   <project path="device/asus/flo" name="android_device_asus_flo" groups="device,flo" remote="nexus" revision="mm" />
   <project path="device/htc/flounder" name="android_device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="nexus" revision="mm" />
@@ -47,7 +47,7 @@
   <!-- Kernel Source -->
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" groups="device,flo" remote="nexus" revision="mm" />
   <project path="kernel/htc/flounder" name="android_kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="nexus" revision="mm" />
-  <project path="kernel/moto/eliteshamu" name="elite_shamu" groups="device,shamu,broadcom_pdk" remote="elite" revision="Elite-M-wifi" />
+  <project path="kernel/moto/eliteshamu" name="elite_shamu" groups="device,shamu,broadcom_pdk" remote="elite" revision="Elite-M-upstream" />
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="nexus" revision="mm" />
 
   <!-- Proprietary Vendors -->
