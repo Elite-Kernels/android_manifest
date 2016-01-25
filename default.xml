@@ -9,7 +9,7 @@
   <remote name="linaro"
            fetch="https://github.com/Christopher83/" /> 
   <remote name="nexus"
-           fetch="https://github.com/PureNexus/" /> 
+           fetch="https://github.com/PureNexusProject/" /> 
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
